@@ -107,6 +107,25 @@ El sistema se encuentra dividido en tres servicios:
 
 Todos los componentes se ejecutan dentro de un único servidor Linux.
 
+# Lecciones Aprendidas
+
+-Administración básica y despliegue de servidores Linux en la nube.
+-Uso de Docker para la creación y gestión de entornos aislados mediante contenedores.
+-Configuración y comunicación entre múltiples servicios utilizando Docker Compose.
+-Implementación de una base de datos MongoDB para almacenamiento de eventos.
+-Importancia de la persistencia de datos en sistemas de monitoreo.
+-Retos asociados a la integración entre sistemas físicos (hardware) y plataformas de software.
+-Identificación y resolución de problemas de conectividad entre servicios distribuidos.
+-Documentación técnica de proyectos para facilitar mantenimiento y escalabilidad.
+
+Además, se evidenció que la integración entre dispositivos IoT y plataformas de monitoreo requiere una planificación adecuada de protocolos de comunicación, validación de datos y pruebas de conectividad entre el hardware y el servidor.
+
+# Conclusiones
+
+- Se logró implementar una infraestructura funcional de monitoreo basada en Linux, Docker y MongoDB.
+- La arquitectura desarrollada permite almacenar y visualizar eventos de forma centralizada.
+- El proyecto permitió aplicar conocimientos de administración de servidores, virtualización mediante contenedores y gestión de bases de datos NoSQL.
+
 ---
 
 # Dirección IP pública del servidor

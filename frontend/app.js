@@ -29,7 +29,7 @@ document.getElementById('eventForm').addEventListener('submit', async (e) => {
             alert('ERROR EN TRANSMISION');
         }
     } catch {
-        alert('SIN CONEXION AL SERVIDOR');
+        alert('¡SIN CONEXION AL SERVIDOR!');
     }
 });
 
